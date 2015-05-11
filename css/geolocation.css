@@ -60,7 +60,7 @@ body {
 #map-canvas {
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 90%;
   height: 500px;
   margin-top: 6%;
   margin-bottom: 5%; }
@@ -110,6 +110,9 @@ table.empty .help {
     margin-top: 4%; }
 
   #results-section {
-    width: 50%; } }
+    width: 50%; }
+
+  #map-canvas {
+    height: 300px; } }
 
 /*# sourceMappingURL=geolocation.css.map */
