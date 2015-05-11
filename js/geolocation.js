@@ -163,6 +163,15 @@ var CompanyView = Backbone.View.extend({
 		$('#search-button').on('click', function(e){
 			e.preventDefault();
 			var formData = $('#search-text-area').val();
+
+			var validator = /^(https+:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+
+			if(validator.test(formData)){
+				console.log('valid URL')
+			}else{
+				$('.form-area').append('<p class="error-msg">please enter valid url</p>')
+				return false;
+			}
 			Backbone.ajax({
 				url: 'https://freegeoip.net/json/' + formData,
 				type: 'GET',
