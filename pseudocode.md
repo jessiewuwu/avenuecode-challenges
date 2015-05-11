@@ -1,19 +1,19 @@
 ## Schedule
 Saturday - functionality
-- set up Bootstrap
-- add functioning search form with GeoIP API working
-- implement Google Maps API
-- review the original code
+DONE - set up Bootstrap
+DONE - add functioning search form with GeoIP API working
+DONE - implement Google Maps API
+DONE - review the original code
 * use Backbone and Mustache for the Model, View
 * validations with reg ex for website domains
 
 Sunday - design + meeting requirements
-- add My Location on click
+DONE - add My Location on click
   - right now it replaces the map, doesn't add My Location to map
-- come up with a wireframe
+DONE - come up with a wireframe
 - Implement Snazzy Map
-- Responsive Design with media queries
-- use SASS
+DONE - Responsive Design with media queries
+DONE - use SASS
 - Testing: 80%+ on the features
 - create the README.md
 
@@ -51,22 +51,14 @@ Sunday - design + meeting requirements
   * Possible Solution - instead of using a pinpoint, use a circle range to cover a broad area (about 5x5 block radius).
 3. After clicking Reset Location, the Map pinpoints the ocean. Instead, it should zoom out and center on the entire United States.
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 ## Things To Do
-- Make Google Maps API responsive
+DONE - Make Google Maps API responsive
 - Make it look prettier and more cohesive
 - ReadMe
-- error-handling for URL:
+DONE - error-handling for URL:
 ^([a-zA-Z0-9]+(\.[a-zA-Z0-9]+)+.*)$
-<<<<<<< Updated upstream
-- Testing
-
-=======
 ^(https+:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$
-- Testing
+IN PROGRESS - Testing
 
 
->>>>>>> Stashed changes
