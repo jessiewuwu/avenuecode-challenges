@@ -167,29 +167,29 @@ var CompanyView = Backbone.View.extend({
 			var validator = /^(https+:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
 			if(validator.test(formData)){
-				console.log('valid URL')
+				Backbone.ajax({
+					url: 'https://freegeoip.net/json/' + formData,
+					type: 'GET',
+					dataType: 'json'
+				})
+				.done(function(data){
+					searchCompany.set('ip', data.ip);
+					searchCompany.set('city', data.city);
+					searchCompany.set('zip_code', data.zip_code);
+					searchCompany.set('longitude', data.longitude);
+					searchCompany.set('latitude', data.latitude);
+					initialize(data.latitude, data.longitude);
+					locations[0][1] = data.latitude;
+					locations[0][2] = data.longitude;
+				})
+				.fail(function() {
+					console.log("error");
+				});
+
 			}else{
 				$('.form-area').append('<p class="error-msg">please enter valid url</p>')
 				return false;
 			}
-			Backbone.ajax({
-				url: 'https://freegeoip.net/json/' + formData,
-				type: 'GET',
-				dataType: 'json'
-			})
-			.done(function(data) {
-				searchCompany.set('ip', data.ip);
-				searchCompany.set('city', data.city);
-				searchCompany.set('zip_code', data.zip_code);
-				searchCompany.set('longitude', data.longitude);
-				searchCompany.set('latitude', data.latitude);
-				initialize(data.latitude, data.longitude);
-				locations[0][1] = data.latitude;
-				locations[0][2] = data.longitude;
-			})
-			.fail(function() {
-				console.log("error");
-			});
 		})
 	}
 
