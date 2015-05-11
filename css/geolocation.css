@@ -1,3 +1,6 @@
+.error-msg {
+  color: #7F0000; }
+
 body {
   font-family: "Abel", sans-serif;
   background: #f3f6f7;
@@ -71,7 +74,7 @@ body {
   color: #83a5b0; }
 
 #btnMyLocation, #btnResetLocation {
-  width: 35%;
+  width: 37%;
   margin: 2%; }
 
 table > tbody > tr > td.field_name {
