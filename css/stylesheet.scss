@@ -3,6 +3,13 @@ $headerFont: 'Crete Round', serif;
 $dark: #49666d;
 $slateblue: #83a5b0;
 $bkgnd: #f3f6f7;
+$errorRed: ##7F0000;
+
+
+
+.error-msg {
+  color: $errorRed;
+}
 
 
 body {
@@ -163,4 +170,8 @@ table.empty .help {
       width: 50%;
     }
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

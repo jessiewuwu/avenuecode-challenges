@@ -51,11 +51,22 @@ Sunday - design + meeting requirements
   * Possible Solution - instead of using a pinpoint, use a circle range to cover a broad area (about 5x5 block radius).
 3. After clicking Reset Location, the Map pinpoints the ocean. Instead, it should zoom out and center on the entire United States.
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ## Things To Do
 - Make Google Maps API responsive
 - Make it look prettier and more cohesive
 - ReadMe
 - error-handling for URL:
 ^([a-zA-Z0-9]+(\.[a-zA-Z0-9]+)+.*)$
+<<<<<<< Updated upstream
 - Testing
 
+=======
+^(https+:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$
+- Testing
+
+
+>>>>>>> Stashed changes
