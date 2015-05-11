@@ -22,9 +22,8 @@
 
 ## To-Do's
 * Add more design to the app based on my mockup:
-![mockup]
-[mockup]: (../imgs/geolocationmockup.jpg)
-geolocationmockup.jpg
+![mockup](../imgs/geolocationmockup.jpg)
+
 * Currently, when we have the company location and user's location, the map only focuses on the location that was last clicked. I was able to pseudocode a possible way to add boundaries and have both pinpoints in the map. In geolocation.js, on line 38 and 29, I determined the bounds so that map could fit to these bounds and added another feature where it would zoom out to include these bounds.
 * The given GeoIP API doesn't give an exact latitude and longitude because it rounds up after the tenth decimal, which makes the location inaccurate by a few blocks.
   * Possible Solution - find a better API that gives exact latitude and longitude. Ideally it would also be nice to get the physical address of the location so that the user can also have that information, rather than just a pinpoint in the map.
