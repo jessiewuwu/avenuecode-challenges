@@ -3,6 +3,12 @@ $headerFont: 'Crete Round', serif;
 $dark: #49666d;
 $slateblue: #83a5b0;
 $bkgnd: #f3f6f7;
+$errorRed: #7F0000;
+
+
+.error-msg {
+  color: $errorRed;
+}
 
 
 body {
@@ -103,7 +109,7 @@ body {
 
 
 #btnMyLocation, #btnResetLocation {
-  width: 35%;
+  width: 38%;
   margin: 2%;
 }
 
@@ -164,3 +170,4 @@ table.empty .help {
     }
 
 }
+
