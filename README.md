@@ -1,4 +1,4 @@
-# Avenue Code UI Challenge - Part I #
+# Geolocation - Part I #
 
 
 ### How to compile and run the application.
@@ -17,7 +17,6 @@
 * jQuery + Ajax - These two are my two absolute favorite things to do. I love being able to manipulate elements and data and if I could, I'd do jQuery and Ajax all day!
 * Bootstrap for grid columns and responsiveness, along with media queries
 * SASS - I used SASS mostly for the variables and nesting. SASS is so important because it makes CSS seem like a programming language by adding logic to it.
-* Jasmine - Jasmine is very similar to rspec, a testing tool that we worked with a lot during Dev Bootcamp and I love how the tests are displayed in the browser, unlike rspec in the console.
 
 ## To-Do's
 * Add more design to the app based on my mockup:
