@@ -35,8 +35,7 @@
 
 - Testing is something I plan on diving deeper and perfecting. I am adding more projects to my portofolio and will be doing test-driven-development. I am pretty confident with enough practice, I can write tests in my sleep. I believe I have the foundation in testing but just need a bit more practice and room before I can spread my wings, or as R. Kelly would say "If I can see it, then I can do it (I can do it). If I just believe it, there's nothing to it. I believe I can fly"
 
-## Thanks for the Opportunity!
-This was a great project and I had a lot of fun working on it. Given more time, I believe I would be able to execute this 100%. I was able to utilize what I had known and pick up some new skills and strategies along the way. I am open to feedback and would love to talk to you more about the code. I hope to hear from you soon, Avenue Code!
+
 
 
 
